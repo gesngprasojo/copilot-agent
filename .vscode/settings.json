@@ -1,0 +1,27 @@
+{
+    // ── GitHub Copilot ──────────────────────────────────────────────
+    "github.copilot.enable": {
+        "*": true
+    },
+    "github.copilot.chat.followUps": "always",
+    "github.copilot.chat.localeOverride": "id",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    // ── Editor ──────────────────────────────────────────────────────
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "editor.suggestSelection": "first",
+    // ── Files ────────────────────────────────────────────────────────
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/node_modules": true,
+        "**/.DS_Store": true
+    },
+    // ── Terminal ─────────────────────────────────────────────────────
+    "terminal.integrated.defaultProfile.linux": "bash"
+}
