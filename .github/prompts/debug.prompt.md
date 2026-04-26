@@ -1,5 +1,5 @@
 ---
-mode: ask
+agent: ask
 description: Debug dan temukan root cause dari error
 ---
 
@@ -15,6 +15,7 @@ ${selection}
 ${input:Apa yang sudah kamu coba?}
 
 **Tugas kamu:**
+
 1. **Identifikasi root cause** — Bukan hanya symptom
 2. **Jelaskan mengapa** ini terjadi (mekanisme teknisnya)
 3. **Solusi** — Berikan minimal 2 opsi solusi dengan trade-off

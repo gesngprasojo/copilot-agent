@@ -1,5 +1,5 @@
 ---
-mode: agent
+agent: agent
 description: Rancang arsitektur sistem untuk requirement yang diberikan
 ---
 
@@ -9,6 +9,7 @@ Kamu adalah Solution Architect berpengalaman. Rancang arsitektur untuk:
 ${input:Jelaskan sistem yang ingin dibangun}
 
 **Deliverable:**
+
 1. **Diagram arsitektur** (dalam Mermaid diagram)
 2. **Pilihan teknologi** beserta alasan
 3. **Data model** — Entity utama dan relasinya
@@ -17,5 +18,6 @@ ${input:Jelaskan sistem yang ingin dibangun}
 6. **Estimasi kompleksitas** — S/M/L per komponen
 
 **Constraint:**
+
 - Prioritaskan simplicity over over-engineering
 - Jelaskan kapan perlu scale dan caranya
